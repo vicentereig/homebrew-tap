@@ -1,28 +1,28 @@
 class WhatsappCli < Formula
   desc "Command-line interface for WhatsApp using whatsmeow"
   homepage "https://github.com/vicentereig/whatsapp-cli"
-  version "1.3.1"
+  version "1.3.2"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/vicentereig/whatsapp-cli/releases/download/v#{version}/whatsapp-cli-darwin-amd64.tar.gz"
-      sha256 "SHA256_DARWIN_AMD64"
+      sha256 "Not"
     end
     on_arm do
       url "https://github.com/vicentereig/whatsapp-cli/releases/download/v#{version}/whatsapp-cli-darwin-arm64.tar.gz"
-      sha256 "SHA256_DARWIN_ARM64"
+      sha256 "Not"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vicentereig/whatsapp-cli/releases/download/v#{version}/whatsapp-cli-linux-amd64.tar.gz"
-      sha256 "SHA256_LINUX_AMD64"
+      sha256 "Not"
     end
     on_arm do
       url "https://github.com/vicentereig/whatsapp-cli/releases/download/v#{version}/whatsapp-cli-linux-arm64.tar.gz"
-      sha256 "SHA256_LINUX_ARM64"
+      sha256 "Not"
     end
   end
 
