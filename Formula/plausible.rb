@@ -1,28 +1,28 @@
 class Plausible < Formula
   desc "Automate Plausible Analytics from the CLI"
   homepage "https://github.com/vicentereig/plausible-cli"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/vicentereig/plausible-cli/releases/download/v#{version}/plausible-darwin-amd64.tar.gz"
-      sha256 "SHA256_DARWIN_AMD64"
+      sha256 "Not"
     end
     on_arm do
       url "https://github.com/vicentereig/plausible-cli/releases/download/v#{version}/plausible-darwin-arm64.tar.gz"
-      sha256 "SHA256_DARWIN_ARM64"
+      sha256 "Not"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vicentereig/plausible-cli/releases/download/v#{version}/plausible-linux-amd64.tar.gz"
-      sha256 "SHA256_LINUX_AMD64"
+      sha256 "Not"
     end
     on_arm do
       url "https://github.com/vicentereig/plausible-cli/releases/download/v#{version}/plausible-linux-arm64.tar.gz"
-      sha256 "SHA256_LINUX_ARM64"
+      sha256 "Not"
     end
   end
 
