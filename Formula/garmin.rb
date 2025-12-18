@@ -1,7 +1,7 @@
 class Garmin < Formula
   desc "CLI for Garmin Connect API - activities, health metrics, and more"
   homepage "https://github.com/vicentereig/garmin-cli"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
