@@ -1,7 +1,7 @@
 class Garmin < Formula
   desc "CLI for Garmin Connect API - activities, health metrics, and more"
   homepage "https://github.com/vicentereig/garmin-cli"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
@@ -28,9 +28,17 @@ class Garmin < Formula
 
   def install
     if OS.mac?
-      bin.install Hardware::CPU.intel? ? "garmin-darwin-amd64" => "garmin" : "garmin-darwin-arm64" => "garmin"
+      if Hardware::CPU.intel?
+        bin.install "garmin-darwin-amd64" => "garmin"
+      else
+        bin.install "garmin-darwin-arm64" => "garmin"
+      end
     elsif OS.linux?
-      bin.install Hardware::CPU.intel? ? "garmin-linux-amd64" => "garmin" : "garmin-linux-arm64" => "garmin"
+      if Hardware::CPU.intel?
+        bin.install "garmin-linux-amd64" => "garmin"
+      else
+        bin.install "garmin-linux-arm64" => "garmin"
+      end
     end
   end
 
