@@ -1,28 +1,28 @@
 class Garmin < Formula
   desc "CLI for Garmin Connect API - activities, health metrics, and more"
   homepage "https://github.com/vicentereig/garmin-cli"
-  version "2.0.1"
+  version "2.0.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.1/garmin-darwin-amd64.tar.gz"
-      sha256 "871f0c8d6fa59c73711d4055eebe4131bfa941264e36a545a7270abf5a5143d8"
+      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.2/garmin-darwin-amd64.tar.gz"
+      sha256 "fc81d99b96ff16e552b77e98bb49b4342d5b970812eb1fb2ce3f205fa488c7cb"
     end
     on_arm do
-      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.1/garmin-darwin-arm64.tar.gz"
-      sha256 "1905c4a20dafffe9fd9de746501a09d363260407332b31b84d72e2e04e20917c"
+      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.2/garmin-darwin-arm64.tar.gz"
+      sha256 "9d5e38884a95b659919b7ca7e089be6dc5f9d68c29f20b0af9643b5c11a92b29"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.1/garmin-linux-amd64.tar.gz"
-      sha256 "02fe3d60efd77e0ed726bf8b5138e794ee281d4755449c61976518b14b33ef8f"
+      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.2/garmin-linux-amd64.tar.gz"
+      sha256 "32d19e9dad8646225a13b72dc7b5616b1a8fbfa3d204d8f3b1ed8738ea204bc6"
     end
     on_arm do
-      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.1/garmin-linux-arm64.tar.gz"
-      sha256 "f1fe57b010a328b3df8d0bd9be59932a20c9a001d9a68e724ed95ce3855e0b3c"
+      url "https://github.com/vicentereig/garmin-cli/releases/download/v2.0.2/garmin-linux-arm64.tar.gz"
+      sha256 "056104e165406e42f3d50d852a73117a54ab648615cebb05b650ee663226d269"
     end
   end
 
